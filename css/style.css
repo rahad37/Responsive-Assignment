@@ -1,0 +1,128 @@
+/*=================================*/
+/*======== Header-Section =========*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header-menu{
+    background: rgb(226, 77, 51);
+    /* border-bottom: 2px solid #dddddd; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo{
+    padding: 12px;
+}
+.logo img{
+    width: 300px;
+}
+
+/*====== Menu =====*/
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    margin: 0 15px;
+    margin-top: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*=================================*/
+/*======== Home-Section =========*/
+.home{
+    background: rgb(241, 239, 239);
+}
+.home h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: orange;    
+    letter-spacing: -5px;
+    word-spacing: 4px;
+}
+.home span{
+    color: gray;
+}
+.home p{
+    width: 400px;
+
+}
+.design{
+    color: white;
+    background: rgb(111, 177, 12);
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.design img{
+    width: 20px;
+}
+
+.okey{
+    border: 0;
+    box-shadow: 0px 0px 2px gray;
+}
+.okey img{
+    margin-right: 20px;
+}
+.box{
+    border-radius: 15px;
+}
+.box > img{
+    background: rgb(219, 213, 213);
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 90%;
+   
+}
+.media-pic img{
+    width: 100px;
+}
+.media-pic h2{
+    margin-top: 50px;
+}
+.wow{
+    background: black;
+}
+footer input, textarea{
+    width: 100%;
+    outline-color: black;
+    padding: 5px;
+}
+.media-pic .okey{
+    background: white;
+    color: black;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .5s;   
+}
+.media-pic .okey:first-child{
+    margin-left: 0;
+}
+.fix-up h2{
+    text-align: center;
+}
+.media-pic .okey:hover{
+    color: red;
+}
+.wow{
+    color: white;
+}
+.wow h2{
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.copyright h5{
+    text-align: center;
+    font-size: 12px;
+
+}
