@@ -1,47 +1,46 @@
+
+html{
+    scroll-behavior: smooth;
+}
 /*=================================*/
 /*======== Header-Section =========*/
 body{
     font-family: 'Roboto', sans-serif;
+    background: lightgray;
 }
-.header-menu{
-    background: rgb(226, 77, 51);
-    /* border-bottom: 2px solid #dddddd; */
+.container{
+    background: white;
+}
+.menu-var{
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
 }
-.logo{
-    padding: 12px;
+.header-menu{
+    background-color: rgb(235, 103, 80);
+    
 }
-.logo img{
-    width: 300px;
-}
-
 /*====== Menu =====*/
-.menu ul{
+.header-menu ul{
     list-style: none;
 }
-.menu ul li{
+.header-menu ul li{
     margin: 0 15px;
-    margin-top: 15px;
 }
-.menu ul li a{
+.header-menu ul li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
 /*=================================*/
 /*======== Home-Section =========*/
-.home{
-    background: rgb(241, 239, 239);
-}
+
 .home h1{
-    font-size: 60px;
+    font-size: 55px;
     text-transform: uppercase;
     font-weight: bold;
     color: orange;    
-    letter-spacing: -5px;
     word-spacing: 4px;
 }
 .home span{
@@ -61,68 +60,140 @@ body{
 }
 .design img{
     width: 20px;
+    margin-right: 5px;
 }
-
-.okey{
-    border: 0;
-    box-shadow: 0px 0px 2px gray;
-}
-.okey img{
-    margin-right: 20px;
-}
+/*===========================================*/
+/*============== Products ==================*/
 .box{
-    border-radius: 15px;
+    border: 0;
 }
 .box > img{
     background: rgb(219, 213, 213);
     border-radius: 15px;
     margin: 20px auto;
-    width: 90%;
-   
+    width: 90%;  
 }
-.media-pic img{
-    width: 100px;
+
+
+
+/*========================================*/
+/*============== ABOUT ================*/
+.fine{
+    display: flex;
+    align-items: center;
+    width: 350px;
 }
-.media-pic h2{
-    margin-top: 50px;
+.fine h5{
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
 }
+.fine p{
+    font-size: 13px;
+    color: rgb(75, 73, 73);
+}
+.pic img{
+    margin-right: 10px;
+}
+/*==========================================*/
+/*=============== FOOTER ===================*/
 .wow{
     background: black;
 }
-footer input, textarea{
-    width: 100%;
-    outline-color: black;
-    padding: 5px;
+.wow{
+    color: white;
+}
+.wow h2{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.media-pic h2{
+    margin-top: 40px;
 }
 .media-pic .okey{
     background: white;
     color: black;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     font-size: 50px;
     margin: 0 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50%;
     transition: .5s;   
 }
 .media-pic .okey:first-child{
     margin-left: 0;
 }
+.okey{
+
+}
+/*=========================================*/
+/*================= FORM =================*/
+footer input, textarea{
+    width: 100%;
+    outline-color: black;
+    padding: 5px;
+}
+
 .fix-up h2{
     text-align: center;
 }
 .media-pic .okey:hover{
     color: red;
-}
-.wow{
-    color: white;
-}
-.wow h2{
-    margin-bottom: 30px;
-    font-style: italic;
+    background: black;
+   
 }
 .copyright h5{
     text-align: center;
     font-size: 12px;
-
 }
+
+
+
+/*=========================================*/
+/*============== RESPONSIVE ===============*/
+@media(max-width:1200px){
+    .hmm h1{
+        font-size: 50px;
+    }
+    .hmm p{
+        width: 320px;
+        }
+}
+@media(max-width:1000px){
+    .hmm h1{
+        font-size: 42px;
+    }
+    .media-pic .okey{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        font-size: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .product button{            
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;  
+    }
+    .product h2{
+        font-size: 25px;
+    }
+}   
+@media (max-width:850px){
+   .header-menu ul li{
+       margin: 0 8px;   
+   }
+   .header-menu ul li a{
+    font-size: 18px;
+   }
+  .context{
+      width: 100%;
+  }
+  .media-pic .okey{    
+    font-size: 28px;
+    margin: 10px;
+}
+}
+
